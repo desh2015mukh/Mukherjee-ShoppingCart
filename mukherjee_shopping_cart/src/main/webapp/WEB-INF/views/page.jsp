@@ -33,8 +33,8 @@
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
-<!-- Bootstrap Cyborg Theme -->
-<link href="${css}/cyborg-bootstrap-theme.css" rel="stylesheet">
+<!-- Bootstrap readable Theme -->
+<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 
 <!-- Bootstrap DataTables -->
@@ -80,6 +80,12 @@
 
 			<c:if test="${userClickContact==true}">
 				<%@include file="contact.jsp"%>
+			</c:if>
+			
+			<!-- Loads when user clicks category of Products -->
+
+			<c:if test="${userClickAllProducts==true or userClickCategoryProducts==true}">
+				<%@include file="listProducts.jsp"%>
 			</c:if>
 
 		</div>

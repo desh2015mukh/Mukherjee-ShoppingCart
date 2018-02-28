@@ -19,14 +19,15 @@
                     <li id="about">
                         <a href="${contextRoot}/about"><font size="3">About</font></a>
                     </li>
-
+                    
                     <li id="contact">
                         <a href="${contextRoot}/contact"><font size="3">Contact Us</font></a>
                     </li>
                     
+                         
                     <li id="listProducts">
-                        <a href="${contextRoot}/show/all/products"><font size="3">View Products</font></a>
-                    </li>
+                        <a href="${contextRoot}/show/all/products">View Products</a>
+                    </li>                 
           </ul>
         </div>
       </div>
